@@ -1,4 +1,4 @@
-package com.example.demo_mvvm.view.utils
+package com.example.demo_mvvm.utils
 
 class Constants {
     companion object {

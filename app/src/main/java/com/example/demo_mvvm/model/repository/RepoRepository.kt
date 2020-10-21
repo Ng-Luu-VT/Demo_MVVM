@@ -1,5 +1,6 @@
-package com.example.demo_mvvm.model
+package com.example.demo_mvvm.model.repository
 
+import com.example.demo_mvvm.model.api.GitResponse
 import com.example.demo_mvvm.model.api.ApiClient
 import retrofit2.Call
 import retrofit2.Callback

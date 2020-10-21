@@ -6,7 +6,7 @@
     app:startDestination="@id/repoListFragment">
     <fragment
         android:id="@+id/repoListFragment"
-        android:name="com.ankit.trendinggit.view.ui.repolist.RepoListFragment"
+        android:name="com.example.demo_mvvm.view.ui.fragment.RepoListFragment"
         android:label="Trending List"
         tools:layout="@layout/fragment_repo_list">
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/repoDetailFragment"
-        android:name="com.ankit.trendinggit.view.ui.repodetail.RepoDetailFragment"
+        android:name="com.example.demo_mvvm.view.ui.fragment.RepoDetailFragment"
         android:label="RepoDetailFragment">
         <argument
             android:name="url"

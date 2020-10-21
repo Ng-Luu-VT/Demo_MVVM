@@ -1,8 +1,12 @@
-package com.example.demo_mvvm
+package com.example.demo_mvvm.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.demo_mvvm.databinding.ViewRepoListItemBinding
+import com.example.demo_mvvm.model.api.Item
+import com.example.demo_mvvm.view.adapter.viewHolders.RepoListViewHolder
+import com.example.demo_mvvm.viewModel.RepoListViewModel
 
 
 class RepoListAdapter(private val repoListViewModel: RepoListViewModel) : RecyclerView.Adapter<RepoListViewHolder>() {

@@ -1,8 +1,8 @@
 package com.example.demo_mvvm.model.api
 
-import com.example.demo_mvvm.view.utils.Constants.Companion.BASE_URL
-import com.example.demo_mvvm.view.utils.Constants.Companion.DEBUG
-import com.example.demo_mvvm.view.utils.Constants.Companion.REQUEST_TIMEOUT_DURATION
+import com.example.demo_mvvm.utils.Constants.Companion.BASE_URL
+import com.example.demo_mvvm.utils.Constants.Companion.DEBUG
+import com.example.demo_mvvm.utils.Constants.Companion.REQUEST_TIMEOUT_DURATION
 import com.google.gson.GsonBuilder
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

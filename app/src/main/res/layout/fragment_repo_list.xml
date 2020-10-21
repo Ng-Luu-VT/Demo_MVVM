@@ -4,7 +4,7 @@
         <import type="android.view.View" />
         <variable
             name="viewmodel"
-            type="com.example.demo_mvvm.RepoListViewModel" />
+            type="com.example.demo_mvvm.viewModel.RepoListViewModel" />
     </data>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="No repo to display"
+            android:text="@string/no_repo_to_display"
             android:textSize="@dimen/_18sp"
             android:visibility="@{safeUnbox(viewmodel.empty) ? View.VISIBLE : View.GONE}" />
     </RelativeLayout>

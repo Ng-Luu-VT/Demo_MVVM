@@ -1,7 +1,9 @@
-package com.example.demo_mvvm
+package com.example.demo_mvvm.viewModel
 
-import com.example.demo_mvvm.model.RepoRepository
-import com.example.demo_mvvm.view.BaseViewModel
+import androidx.lifecycle.MutableLiveData
+import com.example.demo_mvvm.model.repository.RepoRepository
+import com.example.demo_mvvm.base.BaseViewModel
+import com.example.demo_mvvm.model.api.Item
 
 
 class RepoListViewModel : BaseViewModel() {
